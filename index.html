@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titulo de la web -->
+    <title>Felix Masera</title>
+    <!-- Linkear el css con el html -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- boxicons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- remixicon -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <!-- linkear google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Esta seccion es la cabecera de la pagina web la cual tendra logo y barra de navegacion -->
+    <header>
+        <a href="#" class="logo">Felix Masera</a>
+
+        
+        <!-- truco para que el boton sea clickeable sin usar JAVASCRIPT -->
+        <input type="checkbox" name="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon-action">
+            <div class='bx bx-menu' id="menu-icon"></div>
+        </label>
+        
+        
+        <ul class="navlist">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre mi</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </header>
+
+        <!-- HERO SECTION -->
+
+        <section class="hero">
+            <div class="hero-text">
+                <h5>Frontend Developer</h5>
+                <h4>ReactJS Tech Lead </h4>
+                <h1>Felix Masera</h1>
+                <p>Aprendiendo todas las tecnologias necesarias para mejorar dia a dia</p>
+                <a href="#" class="vitae"><i class='bx bx-file' ></i>CV</a>
+                <a href="#" class="github"><i class='bx bxl-github' ></i>Mira mi GitHub</a>
+            </div>
+
+            <div class="hero-img">
+                <img src="assets/img/felix.jpg" alt="felix foto">
+            </div>
+        </section>
+
+        <div class="icons">
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="#"><i class="ri-github-fill"></i></a>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+        </div>
+
+        <div class="scroll-down">
+
+            <a href="#"><i class="ri-arrow-down-line"></i></a>
+
+        </div>
+
+</body>
+</html>
